@@ -39,7 +39,7 @@ class OrderController extends Controller
         //The customers can update their orders if the order status was pending,
         // if not they can't.
         
-        if($order->status->name == 'Pending')
+        if($order->status->name == 'Pending' && $order->user->id == auth()->user()->id)
         {   
             //In postman the new_product_id should be send in x-www-form-urlencoded
             $product = Product::findOrFail($request->product_id);
