@@ -62,4 +62,4 @@ Ensure you have the following installed on your machine:
     php artisan serve
     npm run dev
 9. Interact with the API and test the various endpoints via Postman collection 
-    Get the collection from here: https://www.postman.com/bsher4/workspace/projects/collection/33882685-4c2f09bf-da3d-4f06-b7e2-6a7dd42e2759?action=share&creator=33882685
+    Get the collection from here: https://www.postman.com/bsher4/projects/documentation/j21ddas/e-commerce?workspaceId=e1041b4d-1e0b-43ad-bb35-0956cd438ecd

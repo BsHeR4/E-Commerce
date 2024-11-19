@@ -4,7 +4,7 @@
     <!-- Default box -->
   <div class="card">
     <div class="card-header">
-      <h3 class="card-title">Categories</h3>
+      <h3 class="card-title">Orders</h3>
 
       <div class="card-tools">
         <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -21,7 +21,7 @@
             
             <th>Order ID</th>
             <th>User</th>
-            <th>Product</th>
+            <th style="width: 30%">Product</th>
             <th>Status</th>
             <th>Total Price</th>
             <th></th>

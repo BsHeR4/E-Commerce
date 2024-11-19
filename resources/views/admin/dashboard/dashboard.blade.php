@@ -35,7 +35,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
                 <div class="info-box mb-3">
-                    <span class="info-box-icon bg-warning elevation-1"><i class="ion ion-bag"></i></span>
+                    <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-shopping-bag" style="color: white"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">Products</span>
                         <span class="info-box-number">{{$productsCount}}</span>

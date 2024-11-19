@@ -33,7 +33,7 @@
                 @foreach ($latestProducts as $product)
                   <div class="post">
                     <div class="user-block">
-                      <img class="img-circle img-bordered-sm" src="../../dist/img/user1-128x128.jpg" alt="user image">
+                      <img class="img-circle img-bordered-sm" src="{{asset('storage/' . $product->image_path)}}" alt="product image">
                       <span class="username">
                         <a href="#">{{$product->name}}</a>
                       </span>

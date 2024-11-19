@@ -28,9 +28,7 @@
                   <th style="width: 8%">
                       Brand
                   </th>
-                  <th style="width: 10%">
-                      Description
-                  </th>
+              
                   {{-- <th style="width: 7%" >
                       categories
                   </th> --}}
@@ -40,9 +38,7 @@
                   <th style="width: 8%" >
                       Amount
                   </th>
-                  <th style="width: 4%" >
-                      Availability
-                  </th>
+               
                   <th style="width: 20%">
                   </th>
               </tr>
@@ -61,9 +57,7 @@
                   <td>
                     {{$product->brand}}
                   </td>
-                  <td>
-                    {{$product->description}}
-                  </td>
+               
                   {{-- <td>
                     <ul>
                     @foreach ($product->categories as $category)
@@ -77,13 +71,7 @@
                   <td >
                     {{$product->amount}}
                   </td>
-                  <td >
-                    @if ($product->availability)
-                        Yes
-                    @else
-                        No
-                    @endif
-                  </td>
+            
                   <td class="project-actions text-right">
 
                     <a  href="javascript:{}" onclick="document.getElementById('restore_product_{{$product->id}}').submit();">
